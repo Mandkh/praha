@@ -47,3 +47,17 @@ main .hours {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+
+
+footer .menu {
+    background-color: #000;
+}
+
+
+footer .menu .text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #ffffff;
+}
