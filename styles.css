@@ -52,6 +52,7 @@ main .hours {
 
 footer .menu {
     background-color: #000;
+    padding: 18px;
 }
 
 
@@ -60,4 +61,12 @@ footer .menu .text {
     flex-direction: row;
     justify-content: space-around;
     color: #ffffff;
+}
+
+footer .menu .text button {
+    background-color: #fff;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 13px;
 }
