@@ -71,6 +71,12 @@ footer .menu .text button {
     width: 150px;
     height: 30px;
     border-radius: 13px;
+    font-weight: bold;
+}
+
+footer .menu .text button :hover {
+    background-color: #d1d1d1;
+    cursor: pointer;
 }
 
 footer .menu .card {
