@@ -53,6 +53,8 @@ main .hours {
 footer .menu {
     background-color: #000;
     padding: 18px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -71,7 +73,21 @@ footer .menu .text button {
     border-radius: 13px;
 }
 
-footer .menu .toast-image img{
-    width: 200px;
+footer .menu .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+footer .menu .card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer .menu .card .card-img{
+    width: 30%;
     border-radius: 10px;
 }
