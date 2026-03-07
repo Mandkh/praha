@@ -9,7 +9,40 @@ header {
     background-size: cover;
     background-position: center;
     height: 400px;
+    display: flex;
+    flex-direction: column;
 }
+
+
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    background-color: #000;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+    color: white;
+}
+
+header nav ul li a:hover {
+    color: #bbbbbb;
+    cursor: pointer;
+}
+
 
 header .banner {
     display: flex;
