@@ -84,12 +84,13 @@ footer .menu .card-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 20px;
+    padding: 50px;
 }
 
 
 
 footer .menu .card .card-img {
-    width: 30%;
+    max-width: 200px;
+    min-width: 100px;
     border-radius: 10px;
 }
