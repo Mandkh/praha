@@ -73,13 +73,6 @@ footer .menu .text button {
     border-radius: 13px;
 }
 
-footer .menu .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
 footer .menu .card {
     width: 100%;
     display: flex;
@@ -87,7 +80,16 @@ footer .menu .card {
     justify-content: space-around;
 }
 
-footer .menu .card .card-img{
+footer .menu .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+
+footer .menu .card .card-img {
     width: 30%;
     border-radius: 10px;
 }
