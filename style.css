@@ -6,5 +6,8 @@
 /* HEADER SECTION STARTS */
 
 header {
-    
+    background-image: url(banner.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
