@@ -73,3 +73,51 @@ main .hours-section b {
     font-size: 2em;
     font-weight: 500;
 }
+
+main .menu-section {
+    display: flex;
+    flex-direction: column;
+}
+
+main .menu-section .text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+main .menu-section .text h1 {
+    color: #ffffff;
+}
+
+main .menu-section .text button {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 22px;
+    border: none;
+}
+
+main .menu-section .text button:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+main .menu-section .text button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+main .menu-section .img-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 20px 30px 20px;
+}
+
+main .menu-section .img-section img {
+    width: 29%;
+    border-radius: 10px;
+}
