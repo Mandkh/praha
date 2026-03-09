@@ -43,16 +43,17 @@ i {
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .menu #pepe {
     font-size: 18px;
-    padding: 0px 20px 120px 20px ;
+    padding: 0px 20px 120px 20px;
     font-weight: 800;
 }
 
 .food {
     display: flex;
     flex-direction: column;
-    padding: 0px 20px 120px 20px ;
+    padding: 0px 20px 120px 20px;
 }
 
 .food h1 {
@@ -68,3 +69,8 @@ h1 {
     padding: 50px;
 }
 
+@media (max-width: 768px) {
+    .food .section {
+        padding: 0;
+    }
+}
