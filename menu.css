@@ -67,13 +67,10 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     padding: 50px;
-<<<<<<< HEAD
-=======
 }
 
 @media (max-width: 768px) {
     .food .section {
         padding: 0;
     }
->>>>>>> 1dec3e9c545d6edabf7a5218aad1e37e6bec0742
 }
