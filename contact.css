@@ -42,6 +42,8 @@ body .img-section {
 
 body .img-section img {
     width: 40%;
+    min-width: 140px;
+    border-radius: 15px;
 }
 
 @media all and (max-width: 800px) {
