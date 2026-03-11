@@ -27,6 +27,11 @@ body .text2 {
     gap: 10px;
 }
 
+body .text2 b {
+    text-decoration: none;
+    color: black;
+}
+
 body .text3 {
     display: flex;
     flex-direction: column;
