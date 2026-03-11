@@ -22,6 +22,7 @@
 .container1 .img-container img {
     width: 50%;
     border-radius: 12px;
+    min-width: 200px;
 }
 
 .container1 .img-container #img1 {
@@ -99,4 +100,18 @@
     justify-content: space-around;
     width: 30%;
     height: 300px;
+}
+
+@media all and (max-width:768px) {
+    .container1 {
+        flex-wrap: wrap;
+    }
+
+    .container1 .text-container {
+        height: 330px;
+    }
+
+    .container2 .in-container{
+        flex-wrap: wrap;
+    }
 }
