@@ -43,3 +43,10 @@ body .img-section {
 body .img-section img {
     width: 40%;
 }
+
+@media all and (max-width: 800px) {
+    .img-section {
+        display: flex;
+        flex-direction: column;
+    }
+}
