@@ -22,7 +22,7 @@
 .container1 .img-container img {
     width: 50%;
     border-radius: 12px;
-    min-width: 200px;
+    min-width: 150px;
 }
 
 .container1 .img-container #img1 {
