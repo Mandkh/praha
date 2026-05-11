@@ -55,15 +55,17 @@ header button {
     border-radius: 40px;
     border: none;
     cursor: pointer;
+    color: #ffffff;
 }
 
 header button:hover {
     background-color: #ffffff;
+    color: #000000;
 }
 
 header button a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: inherit;
     font-size: 14px;
     font-weight: bold;
 }
@@ -128,7 +130,7 @@ main .menu-section .text button:hover {
 
 main .menu-section .text button a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: inherit;
     font-size: 16px;
     font-weight: bold;
     width: 100%;
