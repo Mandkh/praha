@@ -49,18 +49,18 @@ header h1 {
 }
 
 header button {
-    background-color: #000000;
+    background-color: #fffcf0;
     width: 130px;
     height: 40px;
     border-radius: 40px;
     border: none;
     cursor: pointer;
-    color: #ffffff;
+    color: #000000;
 }
 
 header button:hover {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 header button a {
